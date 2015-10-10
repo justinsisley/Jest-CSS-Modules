@@ -1,0 +1,20 @@
+{
+  "name": "jest-css-modules",
+  "version": "1.0.0",
+  "description": "A Jest processor that prevents CSS module parse errors",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/substack/node-browserify.git"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "keywords": [
+    "jest",
+    "css modules",
+    "react"
+  ],
+  "author": "Justin Sisley <justin@vera.com> (http://justinsisley.com)",
+  "dependencies": {
+    "babel-jest": "^5.3.0"
+  }
+}
