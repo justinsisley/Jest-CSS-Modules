@@ -15,6 +15,6 @@
   ],
   "author": "Justin Sisley <justin@vera.com> (http://justinsisley.com)",
   "dependencies": {
-    "babel-jest": "^5.3.0"
+    "babel-jest": "^9.0.0"
   }
 }
