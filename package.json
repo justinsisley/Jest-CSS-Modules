@@ -1,6 +1,6 @@
 {
   "name": "jest-css-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Jest processor that prevents CSS module parse errors",
   "repository": {
     "type": "git",
