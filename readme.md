@@ -19,4 +19,4 @@ Update your package.json file's `jest` configuration:
 
 Now, imports such as `import styles from './MyModule.css';` will pass through Jest without causing any pain.
 
-Supports `.css`, `.less`, and `.scss` extensions.
+Supports `.css`, `.less`, `.scss` and `.styl` extensions.
