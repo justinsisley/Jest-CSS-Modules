@@ -4,7 +4,7 @@
   "description": "A Jest processor that prevents CSS module parse errors",
   "repository": {
     "type": "git",
-    "url": "http://github.com/substack/node-browserify.git"
+    "url": "https://github.com/justinsisley/Jest-CSS-Modules.git"
   },
   "main": "index.js",
   "license": "ISC",
