@@ -1,6 +1,6 @@
 {
   "name": "jest-css-modules",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A Jest processor that prevents CSS module parse errors",
   "repository": {
     "type": "git",
@@ -15,6 +15,6 @@
   ],
   "author": "Justin Sisley <justin@vera.com> (http://justinsisley.com)",
   "dependencies": {
-    "babel-jest": "^9.0.0"
+    "babel-jest": "^16.0.0"
   }
 }
