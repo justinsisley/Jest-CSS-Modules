@@ -12,11 +12,13 @@ npm install --save-dev jest-css-modules
 
 Update your package.json file's `jest` configuration:
 
+
 ```json
 {
   "jest": {
-    "scriptPreprocessor": "<rootDir>/node_modules/jest-css-modules",
-  }
+    "transform": {
+       ".css": "<rootDir>/node_modules/jest-css-modules"
+    }
 }
 ```
 
