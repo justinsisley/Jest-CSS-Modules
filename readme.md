@@ -16,8 +16,8 @@ Update your package.json file's `jest` configuration:
 ```json
 {
   "jest": {
-    "transform": {
-       ".css": "<rootDir>/node_modules/jest-css-modules"
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
     }
 }
 ```
