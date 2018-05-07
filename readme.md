@@ -19,6 +19,7 @@ Update your package.json file's `jest` configuration:
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
     }
+  }
 }
 ```
 
