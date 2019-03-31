@@ -1,20 +1,37 @@
 {
   "name": "jest-css-modules",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A Jest processor that prevents CSS module parse errors",
   "repository": {
     "type": "git",
     "url": "https://github.com/justinsisley/Jest-CSS-Modules.git"
   },
-  "main": "index.js",
+  "author": "Justin Sisley (http://justinsisley.com)",
   "license": "ISC",
   "keywords": [
     "jest",
     "css modules",
     "react"
   ],
-  "author": "Justin Sisley <justin@vera.com> (http://justinsisley.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
-    "babel-jest": "^24.1.0"
+    "identity-obj-proxy": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "jest": "^24.5.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sss|styl)$": "<rootDir>/index.js"
+    }
   }
 }
